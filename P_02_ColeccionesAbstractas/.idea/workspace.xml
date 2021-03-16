@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="55f8422b-8aa5-4360-9f9c-94dd795ac804" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1pWZWqzSODgbofzabNBfM2zFpME" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tst/es/ubu/inf/edat/pr02" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ONE_DRIVE\OneDrive - Universidad de Burgos\UNIVERSIDAD\3ºañoUBU\EDAT\PRACTICAS\EDAT\P_02_ColeccionesAbstractas\tst\es\ubu\inf\edat\pr02" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in P_02_ColeccionesAbstractas">
+    <configuration name="All in P_02_ColeccionesAbstractas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P_02_ColeccionesAbstractas" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColeccionArray2DTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P_02_ColeccionesAbstractas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.ubu.inf.edat.pr02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="es.ubu.inf.edat.pr02" />
+      <option name="MAIN_CLASS_NAME" value="es.ubu.inf.edat.pr02.ColeccionArray2DTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColeccionArray2DTest.iteratorRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P_02_ColeccionesAbstractas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.ubu.inf.edat.pr02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="es.ubu.inf.edat.pr02" />
+      <option name="MAIN_CLASS_NAME" value="es.ubu.inf.edat.pr02.ColeccionArray2DTest" />
+      <option name="METHOD_NAME" value="iteratorRemove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in P_02_ColeccionesAbstractas" />
+        <item itemvalue="JUnit.ColeccionArray2DTest.iteratorRemove" />
+        <item itemvalue="JUnit.ColeccionArray2DTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55f8422b-8aa5-4360-9f9c-94dd795ac804" name="Default Changelist" comment="" />
+      <created>1615300844241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615300844241</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1012" y="202" key="#xdebugger.evaluate" timestamp="1615907791953">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="1012" y="202" key="#xdebugger.evaluate/0.0.1536.834@0.0.1536.834" timestamp="1615907791953" />
+    <state x="549" y="158" key="FileChooserDialogImpl" timestamp="1615906566316">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1615906566316" />
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1615911378237">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1615911378237" />
+    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1615911378237">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1615911378237" />
+    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1615911378236">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1615911378236" />
+    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1615911378237">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1615911378237" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1615911378238">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1615911378238" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1615911378238">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1615911378238" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1615911378238">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1615911378238" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1615911378238">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1615911378238" />
+    <state x="478" y="0" width="579" height="834" key="find.popup" timestamp="1615908377367">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="478" y="0" width="579" height="834" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1615908377367" />
+    <state x="209" y="37" key="new project wizard" timestamp="1615906568604">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="209" y="37" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1615906568604" />
+  </component>
+</project>
