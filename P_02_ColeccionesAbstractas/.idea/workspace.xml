@@ -41,7 +41,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tst/es/ubu/inf/edat/pr02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P_03_ComplejidadComputacional" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -121,55 +121,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1012" y="202" key="#xdebugger.evaluate" timestamp="1615907791953">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="1012" y="202" key="#xdebugger.evaluate/0.0.1536.834@0.0.1536.834" timestamp="1615907791953" />
-    <state x="549" y="158" key="FileChooserDialogImpl" timestamp="1615906566316">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="549" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1615906566316" />
-    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1615911378237">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1615911378237" />
-    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1615911378237">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1615911378237" />
-    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1615911378236">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1615911378236" />
-    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1615911378237">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1615911378237" />
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1615911378238">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1615911378238" />
-    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1615911378238">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1615911378238" />
-    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1615911378238">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1615911378238" />
-    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1615911378238">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1615911378238" />
-    <state x="478" y="0" width="579" height="834" key="find.popup" timestamp="1615908377367">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="478" y="0" width="579" height="834" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1615908377367" />
-    <state x="209" y="37" key="new project wizard" timestamp="1615906568604">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="209" y="37" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1615906568604" />
   </component>
 </project>

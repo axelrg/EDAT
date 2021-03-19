@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="337e59c4-c2a6-4b3c-b6d9-2e0dad068246" name="Default Changelist" comment="">
+    <list default="true" id="337e59c4-c2a6-4b3c-b6d9-2e0dad068246" name="Default Changelist" comment="Todo acabado menos la busqueda binaria">
+      <change beforePath="$PROJECT_DIR$/../P_02_ColeccionesAbstractas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P_02_ColeccionesAbstractas/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/es/ubu/inf/edat/pr02/ColeccionArray2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/ubu/inf/edat/pr02/ColeccionArray2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P_03_ComplejidadComputacional/es/ubu/inf/edat/pr02/ColeccionArray2D$Iterator2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P_03_ComplejidadComputacional/es/ubu/inf/edat/pr02/ColeccionArray2D$Iterator2D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P_03_ComplejidadComputacional/es/ubu/inf/edat/pr02/ColeccionArray2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P_03_ComplejidadComputacional/es/ubu/inf/edat/pr02/ColeccionArray2D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P_03_ComplejidadComputacional/es/ubu/inf/edat/pr03/ColeccionArray2DUtilidades.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P_03_ComplejidadComputacional/es/ubu/inf/edat/pr03/ColeccionArray2DUtilidades.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/es/ubu/inf/edat/pr03/ColeccionArray2DUtilidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/ubu/inf/edat/pr03/ColeccionArray2DUtilidades.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,6 +115,14 @@
       <option name="presentableId" value="Default" />
       <updated>1615906573152</updated>
     </task>
+    <task id="LOCAL-00001" summary="Todo acabado menos la busqueda binaria">
+      <created>1616169147326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616169147326</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +136,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Todo acabado menos la busqueda binaria" />
+    <option name="LAST_COMMIT_MESSAGE" value="Todo acabado menos la busqueda binaria" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

@@ -182,28 +182,28 @@ public class ColeccionArray2DUtilidades<E> extends ColeccionArray2D<E> {
         int[] array = new int[size()];
         Iterator<E> iterador = iterator();
 
-        for (int i=0; i<size(); i++){
-            array[i]=(int) iterador.next();
+        for (int i = 0; i < size(); i++) {
+            array[i] = (int) iterador.next();
         }
         Arrays.sort(array);
 
         //2º Implemento la busqueda
-        int posicionInicial=1;
-        int posicionFinal= array.length;
-        int posicionBusqueda;
+        int posicionInicial = 0;
+        int posicionFinal = array.length - 1;
+        int mitad = 0;
 
-        while (true){
-            posicionBusqueda=((posicionFinal-posicionInicial)/2)-1;
-            if (array[posicionBusqueda-1]>(int)buscado){
-                posicionInicial=posicionBusqueda-1;
-            }else if (array[posicionBusqueda-1]<(int)buscado){
-                posicionFinal=posicionBusqueda-1;
-            }else if (array[posicionBusqueda-1]==(int)buscado){
-                break;
+        while (posicionInicial <= posicionFinal) {
+            mitad = posicionInicial + ((posicionFinal - posicionInicial) / 2);
+            if (array[mitad] == (int) buscado) {
+                return mitad;
+            } else if (array[mitad]>(int) buscado ) {
+                posicionFinal = mitad - 1;
+            } else {
+                posicionInicial = mitad + 1;
             }
         }
 
+        return -1;
 
-        return posicionBusqueda-1;
     }
 }
