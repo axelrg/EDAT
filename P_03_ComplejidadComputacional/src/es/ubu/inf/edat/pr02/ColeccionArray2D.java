@@ -5,11 +5,9 @@ import java.util.Iterator;
 
 public class ColeccionArray2D<E> extends AbstractCollection<E> {
 
-    public E[][] getMatriz() {
-        return matriz;
-    }
 
-     public E[][] matriz;
+
+    public E[][] matriz;
 
     public ColeccionArray2D(E[][] contenido) {
         matriz = contenido;
@@ -53,7 +51,6 @@ public class ColeccionArray2D<E> extends AbstractCollection<E> {
         }
 
 
-        //El resto me da la columna y el cociente la fila j + (i * n)= pos j= pos - (i*n)
         @Override
         public E next() {
             int filaAux=fila;
