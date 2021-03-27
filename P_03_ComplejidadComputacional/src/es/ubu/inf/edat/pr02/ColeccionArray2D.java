@@ -43,11 +43,7 @@ public class ColeccionArray2D<E> extends AbstractCollection<E> {
         //TODO Implementar por el alumno
         @Override
         public boolean hasNext() {
-            if (fila >= numeroColumnas()) {
-                return false;
-            } else {
-                return true;
-            }
+            return fila < numeroColumnas();
         }
 
 

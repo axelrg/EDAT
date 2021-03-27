@@ -1,9 +1,6 @@
 package es.ubu.inf.edat.pr03;
 
 import es.ubu.inf.edat.pr02.ColeccionArray2D;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 
@@ -35,12 +32,12 @@ public class ColeccionArray2DUtilidades<E> extends ColeccionArray2D<E> {
         E elemento = null;
 
 
-        for (int i = 0; i <= size(); i++) {
+        for (int i = 0; i < size(); i++) {
 
             E contenido = iterador.next();
             int contador = 0;
 
-            for (int j = 0; j <= size(); j++) {
+            for (int j = 0; j < size(); j++) {
                 if (iteradorDos.next() == contenido) {
                     contador++;
                 }
@@ -175,7 +172,7 @@ public class ColeccionArray2DUtilidades<E> extends ColeccionArray2D<E> {
      * @return Posicion en la que aparecerá el elemento en una iteracion o número negativo si no aparecerá
      */
 
-    public int busquedaBinaria(E buscado) {
+    public int busquedaBinaria(E buscado)  {
         //TODO Implementar por el alumno
 
         //1º Guardo la coleccion en un array para que pueda ser ordenada con Arrays.sort
@@ -190,16 +187,16 @@ public class ColeccionArray2DUtilidades<E> extends ColeccionArray2D<E> {
         //2º Implemento la busqueda
         int posicionInicial = 0;
         int posicionFinal = array.length - 1;
-        int mitad = 0;
+        int mitad;
 
         while (posicionInicial <= posicionFinal) {
-            mitad = posicionInicial + ((posicionFinal - posicionInicial) / 2);
-            if (array[mitad] == (int) buscado) {
+            mitad = (posicionFinal + posicionInicial) / 2;
+            if ( array[mitad]== (Integer) buscado) {
                 return mitad;
-            } else if (array[mitad]>(int) buscado ) {
-                posicionFinal = mitad - 1;
-            } else {
-                posicionInicial = mitad + 1;
+            }else if ((Integer)buscado<(Integer)array[mitad]){
+                posicionFinal=mitad-1;
+            } else  {
+                posicionInicial=mitad+1;
             }
         }
 
