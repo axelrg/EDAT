@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="337e59c4-c2a6-4b3c-b6d9-2e0dad068246" name="Default Changelist" comment="Acabado a falta de medir tiempos">
-      <change afterPath="$PROJECT_DIR$/src.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/es/ubu/inf/edat/MedicionTiempo.java" afterDir="false" />
+    <list default="true" id="337e59c4-c2a6-4b3c-b6d9-2e0dad068246" name="Default Changelist" comment="Tiempos medidos faltan comentarios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P_03_ComplejidadComputacional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/P_03_ComplejidadComputacional.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P_03_ComplejidadComputacional/es/ubu/inf/edat/pr02/ColeccionArray2D$Iterator2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P_03_ComplejidadComputacional/es/ubu/inf/edat/pr02/ColeccionArray2D$Iterator2D.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/P_03_ComplejidadComputacional/es/ubu/inf/edat/pr03/ColeccionArray2DUtilidades.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P_03_ComplejidadComputacional/es/ubu/inf/edat/pr03/ColeccionArray2DUtilidades.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/es/ubu/inf/edat/MedicionTiempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/ubu/inf/edat/MedicionTiempo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/es/ubu/inf/edat/pr02/ColeccionArray2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/ubu/inf/edat/pr02/ColeccionArray2D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/es/ubu/inf/edat/pr03/ColeccionArray2DUtilidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/ubu/inf/edat/pr03/ColeccionArray2DUtilidades.java" afterDir="false" />
     </list>
@@ -83,6 +79,7 @@
     <configuration name="MedicionTiempo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="es.ubu.inf.edat.MedicionTiempo" />
       <module name="P_03_ComplejidadComputacional" />
+      <option name="VM_PARAMETERS" value="-Xms10000m" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="es.ubu.inf.edat.*" />
@@ -132,6 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MedicionTiempo" />
+      <item itemvalue="JUnit.All in P_03_ComplejidadComputacional" />
+      <item itemvalue="JUnit.ColeccionArray2DUtilidadesTest.pruebaMasFrecuente_Integer" />
+      <item itemvalue="JUnit.ColecciónArray2DTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MedicionTiempo" />
@@ -164,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616194626327</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tiempos medidos faltan comentarios">
+      <created>1616886923974</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616886923974</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +193,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Todo acabado menos la busqueda binaria" />
     <MESSAGE value="Acabado a falta de medir tiempos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Acabado a falta de medir tiempos" />
+    <MESSAGE value="Tiempos medidos faltan comentarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tiempos medidos faltan comentarios" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
