@@ -36,12 +36,15 @@ public class ColeccionArray2DUtilidades<E> extends ColeccionArray2D<E> {
      * @return elemento	Elemento con mayor frecuencia en el contenido de la coleccion
      */
     public E masFrecuente() {
+    	//Usaremos dos iteradores
         Iterator<E> iterador = iterator();
         Iterator<E> iteradorDos = iterator();
+        //Contador que indica el número de repeticiones
         int repeticiones = 0;
+        //Elemento con mas frecuencia
         E elemento = null;
 
-        
+        //Repite hasta llegar al último elemento
         for (int i = 0; i < size(); i++) {
 
             E contenido = iterador.next();
@@ -53,8 +56,9 @@ public class ColeccionArray2DUtilidades<E> extends ColeccionArray2D<E> {
                 }
 
             }
-
+            //Cuando el contador es mas grande que el numero de repeticiones 
             if (contador > repeticiones) {
+                //se establece como el mas frecuente
                 repeticiones = contador;
                 elemento = contenido;
             }
@@ -78,10 +82,13 @@ public class ColeccionArray2DUtilidades<E> extends ColeccionArray2D<E> {
      * @return suma	Sumatorio de los códigos hash de todos los elementos contenidos en la colección
      */
     public int sumaHash() {
+    	//Usamos iterador
         Iterator<E> iterador = iterator();
         int suma = 0;
-
+        
+        //Recorre toda la matriz hasta la ultima posicion
         for (int i = 0; i < size(); i++) {
+        	//Sumamos el Hash Code de cada elemento
             suma = suma + iterador.next().hashCode();
         }
         return suma;
@@ -93,20 +100,22 @@ public class ColeccionArray2DUtilidades<E> extends ColeccionArray2D<E> {
      * <p>
      * Si consideramos que el codigo hash está relacionado con el contenido de cada objeto, esto
      * nos permitiría conocer "como de similar" es el objeto seleccionado con el resto de los contenidos.
-     *
      * @param posicion		Parametro de entrada que indica la posicion del array.
-     * 
      * @return diferencia	Array de enteros que incluye la diferencia del código hash del elemento que ocupa esa 
      * posicion que ocupa el elemento que se quiere comprobar, en una iteracion secuencial en la coleción
      * en una iteración secuencial, con el código hash del elemento elegido como referencia (ver parametro de entrada).
      */
     public int[] diferenciasHash(int posicion) {
+    	//Array que guarda la diferencia
         int[] diferencia = new int[size()];
+        //Usamos iterador
         Iterator<E> iterador = iterator();
 
-        //Primero hay averiguamos el hash code de la posicion
+        //Primero hay averiguamos el hash code de la posicion indicada
         int hashPos = -1;
+        //Recorre toda la matriz secuencialmente
         for (int i = 0; i < size(); i++) {
+        	//Cuando encuentra la posicion del hash hash 
             if (i == posicion) {
                 hashPos = iterador.next().hashCode();
             } else {
@@ -134,6 +143,7 @@ public class ColeccionArray2DUtilidades<E> extends ColeccionArray2D<E> {
      */
     public int[][] diferenciasHash() {
         int[][] diferencia = new int[size()][size()];
+        //Bucle que recorre hasta el final
         for (int i = 0; i < size(); i++) {
             diferencia[i] = diferenciasHash(i);
         }
@@ -154,12 +164,13 @@ public class ColeccionArray2DUtilidades<E> extends ColeccionArray2D<E> {
      * @return posicion	Posicion en la que aparecerá el elemento en una iteracion o número negativo si no aparecerá
      */
     public int busquedaSecuencial(E buscado) {
-
+    	//Usamos iterador
         Iterator<E> iterador = iterator();
         //Si no encontramos coincidencia devolvemos -1
         int posicion = -1; 
         //Si coincide con el valor de primera posicion devuelve 0
         for (int i = 0; i < size(); i++) {
+        	//Forzamos hasta que encuentre 11
             if (buscado == iterador.next()) {
                 posicion = i;
                 break;
@@ -190,19 +201,25 @@ public class ColeccionArray2DUtilidades<E> extends ColeccionArray2D<E> {
     public int busquedaBinaria(E buscado)  {
         //1º Guarda la coleccion en un array para que pueda ser ordenada con Arrays.sort
         int[] array = new int[size()];
+        //Usamos iterador
         Iterator<E> iterador = iterator();
-
+        
         for (int i = 0; i < size(); i++) {
             array[i] = (int) iterador.next();
         }
+        
+        //Ordena el array
         Arrays.sort(array);
 
         //2º Implementar la busqueda
         int posicionInicial = 0;
         int posicionFinal = array.length - 1;
+        //Elemento que se encuentra en la mitad
         int mitad;
-
+        
+        //Bucle que recorre todas las posiciones
         while (posicionInicial <= posicionFinal) {
+        	 //Posicion en la que aparecerá el elemento en una iteracion
             mitad = (posicionFinal + posicionInicial) / 2;
             if ( array[mitad]== (Integer) buscado) {
                 return mitad;
@@ -212,7 +229,7 @@ public class ColeccionArray2DUtilidades<E> extends ColeccionArray2D<E> {
                 posicionInicial=mitad+1;
             }
         }
-
+        //Negativo por no parecer
         return -1;
 
     }

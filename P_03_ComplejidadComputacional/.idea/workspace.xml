@@ -19,10 +19,84 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="337e59c4-c2a6-4b3c-b6d9-2e0dad068246" name="Default Changelist" comment="Tiempos medidos faltan comentarios">
+    <list default="true" id="337e59c4-c2a6-4b3c-b6d9-2e0dad068246" name="Default Changelist" comment="Version parcialmente comentada">
+      <change afterPath="$PROJECT_DIR$/doc/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/es/ubu/inf/edat/MedicionTiempo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/es/ubu/inf/edat/class-use/MedicionTiempo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/es/ubu/inf/edat/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/es/ubu/inf/edat/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/es/ubu/inf/edat/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/es/ubu/inf/edat/pr02/ColeccionArray2D.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/es/ubu/inf/edat/pr02/class-use/ColeccionArray2D.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/es/ubu/inf/edat/pr02/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/es/ubu/inf/edat/pr02/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/es/ubu/inf/edat/pr02/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/es/ubu/inf/edat/pr03/ColeccionArray2DUtilidades.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/es/ubu/inf/edat/pr03/class-use/ColeccionArray2DUtilidades.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/es/ubu/inf/edat/pr03/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/es/ubu/inf/edat/pr03/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/es/ubu/inf/edat/pr03/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/member-search-index.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/package-search-index.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/external/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/images/ui-bg_glass_65_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/jquery-ui.structure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/jszip-utils/dist/jszip-utils-ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/jszip-utils/dist/jszip-utils-ie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/jszip-utils/dist/jszip-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/jszip-utils/dist/jszip-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/jszip/dist/jszip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script-dir/jszip/dist/jszip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/system-properties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/type-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/type-search-index.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tst.rar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P_03_ComplejidadComputacional/es/ubu/inf/edat/pr02/ColeccionArray2D$Iterator2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P_03_ComplejidadComputacional/es/ubu/inf/edat/pr02/ColeccionArray2D$Iterator2D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P_03_ComplejidadComputacional/es/ubu/inf/edat/pr02/ColeccionArray2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P_03_ComplejidadComputacional/es/ubu/inf/edat/pr02/ColeccionArray2D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P_03_ComplejidadComputacional/es/ubu/inf/edat/pr03/ColeccionArray2DUtilidades.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/P_03_ComplejidadComputacional/es/ubu/inf/edat/pr03/ColeccionArray2DUtilidades.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/es/ubu/lsi/edat/datos/GeneradorEnteros.java" beforeDir="false" afterPath="$PROJECT_DIR$/resources/es/ubu/lsi/edat/datos/GeneradorEnteros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/es/ubu/inf/edat/MedicionTiempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/ubu/inf/edat/MedicionTiempo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/es/ubu/inf/edat/pr02/ColeccionArray2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/ubu/inf/edat/pr02/ColeccionArray2D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/es/ubu/inf/edat/pr03/ColeccionArray2DUtilidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/ubu/inf/edat/pr03/ColeccionArray2DUtilidades.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +138,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P_05_ImplementaciónListaPilaCola" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
@@ -75,7 +149,7 @@
       <recent name="C:\Users\Axel\OneDrive - Universidad de Burgos\UNIVERSIDAD\3ºañoUBU\EDAT\PRACTICAS\EDAT\P_03_ComplejidadComputacional" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MedicionTiempo">
+  <component name="RunManager" selected="JUnit.All in P_03_ComplejidadComputacional">
     <configuration name="MedicionTiempo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="es.ubu.inf.edat.MedicionTiempo" />
       <module name="P_03_ComplejidadComputacional" />
@@ -137,8 +211,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MedicionTiempo" />
         <item itemvalue="JUnit.All in P_03_ComplejidadComputacional" />
+        <item itemvalue="Application.MedicionTiempo" />
         <item itemvalue="JUnit.ColeccionArray2DUtilidadesTest.pruebaMasFrecuente_Integer" />
         <item itemvalue="JUnit.ColecciónArray2DTest" />
       </list>
@@ -174,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616886923974</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Version parcialmente comentada">
+      <created>1616925009685</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616925009685</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,7 +275,14 @@
     <MESSAGE value="Todo acabado menos la busqueda binaria" />
     <MESSAGE value="Acabado a falta de medir tiempos" />
     <MESSAGE value="Tiempos medidos faltan comentarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tiempos medidos faltan comentarios" />
+    <MESSAGE value="Version parcialmente comentada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version parcialmente comentada" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1618314956060">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1618314956060" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
