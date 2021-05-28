@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"es.ubu.inf.edat.pr02","l":"ColeccionArray2D"},{"p":"es.ubu.inf.edat.pr03","l":"ColeccionArray2DUtilidades"},{"p":"es.ubu.inf.edat","l":"MedicionTiempo"}]
