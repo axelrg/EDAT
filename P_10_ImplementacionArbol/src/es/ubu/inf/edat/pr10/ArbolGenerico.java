@@ -13,13 +13,13 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
     public ArbolGenerico() {
     }
 
-    private class Nodo<E> {
-        Nodo<E> hermano;
-        Nodo<E> padre;
-        E nodo;
-        List<Nodo<E>> hijos;
+    private class Nodo<T> {
+        Nodo<T> hermano;
+        Nodo<T> padre;
+        T nodo;
+        ArrayList<Nodo<T>> hijos;
 
-        public Nodo(E nodo) {
+        public Nodo(T nodo) {
             this.nodo = nodo;
             hijos = new ArrayList<>();
         }
@@ -28,37 +28,23 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
             hijos = new ArrayList<>();
         }
 
-
-        public E getHijo(E hijoBuscado) {
-            for (Nodo<E> hijo : hijos) {
-                if (hijo.nodo == hijoBuscado) {
-                    return hijoBuscado;
-                }
-            }
-            return null;
-        }
-
         public boolean tieneHijo() {
             return hijos.size() != 0;
         }
 
-        public Nodo<E> getHijo() {
+        public Nodo<T> getHijo() {
             return hijos.get(0);
         }
 
-        public void addHijo(E hijo) {
+        public void addHijo(T hijo) {
             hijos.add(new Nodo<>(hijo));
         }
 
-        public int numeroHijos() {
-            return hijos.size();
-        }
-
-        public Nodo<E> getHermano() {
+        public Nodo<T> getHermano() {
             return hermano;
         }
 
-        public Nodo<E> getPadre() {
+        public Nodo<T> getPadre() {
             return padre;
         }
 
@@ -151,7 +137,6 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
     public boolean add(E padre, E hijo) {
         if (raiz == null && padre == null) {
             raiz = new Nodo<>(hijo);
-            tamanio++;
         } else {
             Nodo<E> p = buscadorNodo(padre);
             p.addHijo(hijo);
@@ -159,8 +144,8 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
             if (p.hijos.size() > 1) {
                 p.hijos.get(p.hijos.size() - 2).hermano = p.hijos.get(p.hijos.size() - 1);
             }
-            tamanio++;
         }
+        tamanio++;
         return true;
     }
 
@@ -170,11 +155,7 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
     public boolean tieneHermanoIzquierdo(Nodo<E> nodo ){
         if (nodo.tienePadre()){
             if (nodo.padre.hijos.size()>1){
-                if (nodo.padre.hijos.indexOf(nodo)==0){
-                    return false;
-                }else {
-                    return true;
-                }
+                return nodo.padre.hijos.indexOf(nodo) != 0;
             }else{
                 return false;
             }
@@ -192,12 +173,57 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
     }
 
     public void clear(){
+        raiz=null;
     }
 
     @Override
     public boolean remove(Object objeto) {
         Nodo<E> nodo = buscadorNodo((E) objeto);
-        Nodo<E> padre = nodo.getPadre();
+
+        if (nodo==raiz){
+            if (raiz.tieneHijo()){
+                Nodo<E> provisional= new Nodo<>();
+                provisional.nodo= raiz.hijos.get(0).nodo;
+
+                if (raiz.hijos.get(0).tieneHijo()){
+                    provisional.hijos.addAll(raiz.hijos.get(0).hijos);
+                }
+
+                if (raiz.hijos.get(0).tieneHemano()){
+                    raiz.hijos.remove(raiz.hijos.get(0));
+                    provisional.hijos.addAll(raiz.hijos);
+                }
+
+                raiz=provisional;
+
+            }else{
+                raiz=null;
+            }
+        }else if (nodo.tieneHijo()){
+            if (!nodo.tieneHemano() && !tieneHermanoIzquierdo(nodo)){
+                int indice=nodo.getPadre().hijos.indexOf(nodo);
+                ArrayList<Nodo<E>> hijos=nodo.hijos;
+                nodo.getPadre().hijos.remove(nodo);
+                nodo.getPadre().hijos.addAll(indice, hijos );
+            }else {
+                int indice=nodo.getPadre().hijos.indexOf(nodo);
+                ArrayList<Nodo<E>> hijos=nodo.hijos;
+                if (tieneHermanoIzquierdo(nodo) && nodo.tieneHemano()){
+                    hijos.get(hijos.size()-1).hermano=nodo.getHermano();
+                    getHermanoIzquierdo(nodo).hermano=hijos.get(0);
+                    nodo.getPadre().hijos.remove(nodo);
+                    nodo.getPadre().hijos.addAll(indice, hijos );
+                }else if (!tieneHermanoIzquierdo(nodo) && nodo.tieneHemano()){
+                    hijos.get(hijos.size()-1).hermano=nodo.getHermano();
+                    nodo.getPadre().hijos.remove(nodo);
+                    nodo.getPadre().hijos.addAll(indice, hijos );
+                }else if (tieneHermanoIzquierdo(nodo) && !nodo.tieneHemano()){
+                    getHermanoIzquierdo(nodo).hermano=hijos.get(0);
+                    nodo.getPadre().hijos.remove(nodo);
+                    nodo.getPadre().hijos.addAll(indice, hijos );
+                }
+            }
+        }
 
         if (!nodo.tieneHijo()){
             if (nodo.getPadre()!=null){
@@ -213,7 +239,7 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
                 }
             }
         }
-
+        tamanio--;
         return true;
     }
 
@@ -223,9 +249,7 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
     public List<E> descendants(E padre) {
         ArrayList<E> lista = new ArrayList<>();
         Nodo<E> nodo = buscadorNodo(padre);
-        if (!nodo.tieneHijo()) {
-            return lista;
-        } else {
+        if (nodo.tieneHijo()) {
             Nodo<E> actual = nodo;
             do {
                 if (actual.tieneHijo()) {
@@ -239,7 +263,7 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
                         actual = actual.padre;
 
                     }
-                    if (actual.tieneHemano() && actual!=nodo){
+                    if (actual.tieneHemano() && actual != nodo) {
                         actual = actual.getHermano();
                         lista.add(actual.nodo);
                     }
@@ -249,8 +273,8 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
             }
             while (nodo != actual);
 
-            return lista;
         }
+        return lista;
 
     }
 
