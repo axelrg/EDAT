@@ -190,10 +190,13 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
             E nodoInicial = actual.nodo;
 
             if (actual.tieneHijo()) {
+                //Si tiene hijo actual es el hijo
                 actual = actual.getHijo();
             } else if (actual.tieneHemano()) {
+                //Si tiene hermano actual es el hermano
                 actual = actual.getHermano();
             } else {
+                //Si tiene ni hijo ni hermano sube hasta encontrar un ancestro con hermano o encontrarse la raiz
                 while (!actual.tieneHemano() && actual != raiz) {
                     if (actual.padre == null) {
                         actual = raiz;
@@ -252,6 +255,8 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
             }
             contador++;
         }
+        //Si hemos recorrido más nodos de los que tiene
+        //el arbol estamos empezando de nuevo por loq ue no existe el nodo
         if (contador > size()) {
             return null;
         } else {
@@ -279,6 +284,7 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
      */
     public boolean add(E padre, E hijo) {
         if (raiz == null && padre == null) {
+            //Si es raiz el introducido
             raiz = new Nodo<>(hijo);
         } else {
             if (existeNodo(padre) && !existeNodo(hijo)) {
@@ -352,6 +358,7 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
         if (existeNodo((E) objeto)){
             Nodo<E> nodo = buscadorNodo((E) objeto);
 
+            //En caso de que eliminemos la raiz
             if (nodo == raiz) {
                 if (raiz.tieneHijo()) {
                     Nodo<E> provisional = new Nodo<>();
@@ -372,14 +379,17 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
                     raiz = null;
                 }
             } else {
+                //En caso de que no sea raiz y tenga hijos
                 assert nodo != null;
                 if (nodo.tieneHijo()) {
                     if (!nodo.tieneHemano() && !tieneHermanoIzquierdo(nodo)) {
+                        //Si no tiene hermanos solo hay que ocuparse de los hijos
                         int indice = nodo.getPadre().hijos.indexOf(nodo);
                         ArrayList<Nodo<E>> hijos = nodo.hijos;
                         nodo.getPadre().hijos.remove(nodo);
                         nodo.getPadre().hijos.addAll(indice, hijos);
                     } else {
+                        //Si tiene hermanos hay que ocuparse de ambos
                         int indice = nodo.getPadre().hijos.indexOf(nodo);
                         ArrayList<Nodo<E>> hijos = nodo.hijos;
                         if (tieneHermanoIzquierdo(nodo) && nodo.tieneHemano()) {
@@ -400,6 +410,7 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
                 }
             }
 
+            //En caso de que no tenga hijos
             if (!nodo.tieneHijo()) {
                 if (nodo.getPadre() != null) {
                     if (!nodo.tieneHemano()) {
