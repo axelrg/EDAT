@@ -342,6 +342,7 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
     /**
      * Metodo borra el arbol al igualar la raiz a nulo.
      */
+    @Override
     public void clear() {
         raiz = null;
     }
