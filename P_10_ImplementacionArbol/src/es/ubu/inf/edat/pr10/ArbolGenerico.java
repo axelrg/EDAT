@@ -316,7 +316,7 @@ public class ArbolGenerico<E> extends AbstractSet<E> {
     public boolean tieneHermanoIzquierdo(Nodo<E> nodo) {
         if (nodo.tienePadre()) {
             if (nodo.padre.hijos.size() > 1) {
-                return nodo.padre.hijos.indexOf(nodo) != 0;
+                return nodo.padre.hijos.get(0) == nodo;
             } else {
                 return false;
             }
